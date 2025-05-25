@@ -1,7 +1,6 @@
 package stepdefs;
 
 import io.cucumber.java.en.*;
-
 import static io.restassured.RestAssured.*;
 
 public class RegisterSteps {
@@ -21,3 +20,5 @@ public class RegisterSteps {
                 .post("/register");
     }
 }
+
+

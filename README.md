@@ -12,20 +12,7 @@ The `/register` endpoint is a **mock AWS service**:
 - Always returns `"Internal server error"`
 - The goal is to **demonstrate correct implementation**, not actual success/fail responses.
 
----
 
-## 🧰 Tech Stack
-
-| Tool         | Purpose                          |
-|--------------|----------------------------------|
-| Java         | Programming language             |
-| RestAssured  | API request automation           |
-| Cucumber     | BDD-style test scenarios         |
-| JUnit        | Test framework                   |
-| Maven        | Dependency & build management    |
-| Allure       | Test report generation           |
-
----
 
 ## 🧪 Test Scenarios
 
@@ -45,5 +32,3 @@ Each test sends a POST request and prints the response.
 
 ### 📦 Using Maven (Recommended)
 
-```bash
-mvn clean test
